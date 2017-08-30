@@ -26,7 +26,9 @@ features_train, features_test, labels_train, labels_test = preprocess()
 
 #########################################################
 ### your code goes here ###
-
+t0 = time()
+#your clf.fit() line of code
+print "training time:", round(time()-t0, 3), "s"
 
 #########################################################
 
